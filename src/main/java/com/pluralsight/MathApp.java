@@ -19,6 +19,10 @@ public class MathApp {
 
         System.out.println("The radius is " + area);
 
+        int x1 = 5;
+        int x2 = 10;
+
+
 
 
 
