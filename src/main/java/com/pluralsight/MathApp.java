@@ -23,7 +23,7 @@ public class MathApp {
         double  radius = 7.25;
         double area = Math.PI * Math.pow(radius, 2);
 
-        System.out.println("The radius is " + area);
+        System.out.println("The radius is " + area + "\n");
 
         //Problem 4.
         double y = 5.0;
@@ -39,12 +39,45 @@ public class MathApp {
 
         double distance = Math.sqrt(Math.pow(x1-x3,2) + Math.pow(x2-x4,2));
 
-        System.out.println("The differnce is/distance " + distance);
+        System.out.println("The differnce is/distance " + distance + "\n");
 
         //Problem 6
         double pX = -3.8;
         double positive = Math.abs(pX);
-        System.out.println("The absolute positive vaulue of -3.8 is: " + positive);
+
+        System.out.println("The absolute positive vaulue of -3.8 is: " + positive + "\n");
+
+        //Problem 7.
+        double rand = Math.random();
+
+        System.out.println( "This number will never be the same: " + rand + "\n");
+
+        //Problem 8
+
+
+        long days = 24;
+        long minsPerD = 24 * 60 ;
+
+        long total = minsPerD * days;
+
+        long milliSeconds = total * 60000;
+
+        System.out.println("There are " + total + " minutes in 24 days" + "\n");
+
+        System.out.println("There are " + milliSeconds + " milliseconds in 24 days " + "\n");
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 
 
