@@ -42,14 +42,15 @@ public class MathApp {
         System.out.println("The differnce is/distance " + distance);
 
         //Problem 6
-
         double pX = -3.8;
-
         double positive = Math.abs(pX);
         System.out.println("The absolute positive vaulue of -3.8 is: " + positive);
-
     }
 
 
 
 }
+
+
+
+
