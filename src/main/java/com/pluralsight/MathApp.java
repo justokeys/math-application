@@ -30,25 +30,23 @@ public class MathApp {
         double box = Math.sqrt(y);
 
         System.out.println("The square root of the box is: " + box + "\n");
+
         //Problem 5
-
-
         int x1 = 5;
         int x2 = 10;
         int x3 = 85;
         int x4 = 50;
 
-       double distance = Math.sqrt(Math.pow(x1-x3,2) + Math.pow(x2-x4,2));
+        double distance = Math.sqrt(Math.pow(x1-x3,2) + Math.pow(x2-x4,2));
 
         System.out.println("The differnce is/distance " + distance);
 
+        //Problem 6
 
+        double pX = -3.8;
 
-
-
-
-
-
+        double positive = Math.abs(pX);
+        System.out.println("The absolute positive vaulue of -3.8 is: " + positive);
 
     }
 
