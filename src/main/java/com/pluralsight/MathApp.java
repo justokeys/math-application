@@ -54,28 +54,19 @@ public class MathApp {
 
         //Problem 8
 
-
         long days = 24;
-        long hoursPerD = 24;
-        long minsPerH = 60;
-        long secondsPerM = 60;
-        long millisecondsPerM = 1000;
+        long hoursPerDay = 24;
+        long minsPerHour = 60;
+        long secondsPerMin = 60;
+        long millisecondsPerSec = 1000;
 
-        long totalHours = hoursPerD * minsPerH * days;
+        long totalMin = hoursPerDay *  minsPerHour * days;
 
-        long milliSecondsPerD = totalHours * millisecondsPerM * secondsPerM;
+        long milliSecondsTotal = totalMin * millisecondsPerSec * secondsPerMin;
 
-        System.out.println("There are " + totalHours + " minutes in 24 days" + "\n");
+        System.out.println("There are " + totalMin + " minutes in " + days + " days\n");
 
-        System.out.println("There are " + milliSecondsPerD+ " milliseconds in 24 days " + "\n");
-
-
-
-
-
-
-
-
+        System.out.println("There are " + milliSecondsTotal + " milliseconds in " + days + " days\n");
 
 
 
