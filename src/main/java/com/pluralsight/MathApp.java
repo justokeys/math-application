@@ -15,15 +15,15 @@ public class MathApp {
         //Problem 2.
         double carPrice = 267767.69;
         double truckPrice = 125000.35;
-        double highestCarPrice = Math.max(carPrice,truckPrice);
+        double lowestCarPrice = Math.min(carPrice,truckPrice);
 
-        System.out.println("The highest priced car is " + highestCarPrice + "\n");
+        System.out.println("The Lowest priced car is " + lowestCarPrice + "\n");
 
         //Problem 3.
         double  radius = 7.25;
         double area = Math.PI * Math.pow(radius, 2);
 
-        System.out.println("The radius is " + area + "\n");
+        System.out.println("The area of the circle is " + area + "\n");
 
         //Problem 4.
         double y = 5.0;
@@ -56,15 +56,18 @@ public class MathApp {
 
 
         long days = 24;
-        long minsPerD = 24 * 60 ;
+        long hoursPerD = 24;
+        long minsPerH = 60;
+        long secondsPerM = 60;
+        long millisecondsPerM = 1000;
 
-        long total = minsPerD * days;
+        long totalHours = hoursPerD * minsPerH * days;
 
-        long milliSeconds = total * 60000;
+        long milliSecondsPerD = totalHours * millisecondsPerM * secondsPerM;
 
-        System.out.println("There are " + total + " minutes in 24 days" + "\n");
+        System.out.println("There are " + totalHours + " minutes in 24 days" + "\n");
 
-        System.out.println("There are " + milliSeconds + " milliseconds in 24 days " + "\n");
+        System.out.println("There are " + milliSecondsPerD+ " milliseconds in 24 days " + "\n");
 
 
 
