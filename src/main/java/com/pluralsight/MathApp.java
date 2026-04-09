@@ -24,12 +24,13 @@ public class MathApp {
         double area = Math.PI * Math.pow(radius, 2);
 
         System.out.println("The radius is " + area);
-        //Problem 4.
 
+        //Problem 4.
         double y = 5.0;
         double box = Math.sqrt(y);
 
         System.out.println("The square root of the box is: " + box + "\n");
+        //Problem 5
 
 
         int x1 = 5;
